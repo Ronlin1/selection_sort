@@ -1,0 +1,7 @@
+
+Time Complexity
+We can easily get the time complexity by examining the for loops in the Selection Sort algorithm. For a list with n elements, the outer loop iterates n times.
+
+The inner loop iterate n-1 when i is equal to 1, and then n-2 as i is equal to 2 and so forth.
+
+The amount of comparisons are (n - 1) + (n - 2) + ... + 1, which gives Selection Sort a time complexity of O(n^2).
